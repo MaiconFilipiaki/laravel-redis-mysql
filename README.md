@@ -1,0 +1,1 @@
+Docker image laravel: https://hub.docker.com/repository/docker/mdfilipiaki/laravel
