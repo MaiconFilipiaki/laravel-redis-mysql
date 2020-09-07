@@ -1,6 +1,6 @@
 FROM php:7.3.6-fpm-alpine3.9
 
-RUN apk add --no-cache openssl bash shadow
+RUN apk add --no-cache openssl bash shadow nodejs npm
 RUN docker-php-ext-install mysqli pdo pdo_mysql
 
 ENV DOCKERIZE_VERSION v0.6.1
